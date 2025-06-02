@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Horario</title>
+    <link rel="stylesheet" href="assets/css/agendamento.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+             
+     <h1>Estilo & Fio</h1>
+     <h2>Agendar Horario</h2>
+    </header>
+ <div class="container">
+     <form action="#" method="POST">
+         <div class="input-nome">
+             <label for="Nome">Nome:</label>
+             <input type="text" name="Nome" id="nome" required>
+         </div>
+         <div class="input-telefone">
+             <label for="input-telefone">Telefone:</label>
+             <input type="text" name="telefone" id="telefone" required>
+         </div>
+         <div class="data">
+             <label for="data">Data:</label>
+             <input type="date" name="data" id="data" required>
+         </div>
+         <div class="hora">
+             <label for="hora">Hora:</label>
+             <input type="time" name="hora" id="hora" required>
+         </div>
+         <div class="servico">
+             <label for="servico">Serviço:</label>
+             <select name="servico" id="servico" required>
+                 <option value="corte">Corte</option>
+                 <option value="coloracao">Coloração</option>
+                 <option value="escova">Escova</option>
+                 <option value="lavagem">Lavagem</option>
+             </select>
+             <button class="button-agendar" type="submit">Agendar</button>
+         </div>
+         <a class="button-voltar" href="index.html">Voltar para página inicial</a>
+     </form>
+ </div>
+</body>
+
+</html>
